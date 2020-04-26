@@ -6,7 +6,7 @@ from keras.layers import Input
 from keras.layers import merge, concatenate
 from keras.layers import Reshape
 from keras.models import Model
-from keras_ssd.nets.vgg16 import VGG16
+from keras_ssd.nets.VGG16 import VGG16
 from keras_ssd.nets.ssd_layers import Normalize
 from keras_ssd.nets.ssd_layers import PriorBox
 
